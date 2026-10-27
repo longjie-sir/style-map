@@ -34,7 +34,7 @@
 - **不是截图工具**：山体、水、云、画框都是实时渲染的，改一个滑块画面立刻变；
 - **不是要装一堆东西的工程**：没有 `npm install`，没有打包步骤，`git clone` 完起一个 Python 静态服务就能跑；
 - **不是只能看**：隐藏界面（快捷键 `H`）就是一张可以直接交出去的图。
-
+- **在部分没有DEM数据的地方不计入画框绘制范围**
 ---
 
 ## 界面速览
@@ -454,7 +454,7 @@ style-map/
 
 ## License
 
-[MIT](LICENSE) © Terrain Atelier contributors
+[MIT](LICENSE) © longjie-sir
 
 三维引擎 [three.js](https://threejs.org/)（MIT）、行政区划 [阿里云 DataV](https://datav.aliyun.com/portal/school/atlas/area_selector)、
 高程 [AWS Terrain Tiles](https://registry.opendata.aws/terrain-tiles/)、河湖 [Natural Earth](https://www.naturalearthdata.com/)。
