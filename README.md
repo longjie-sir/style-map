@@ -189,7 +189,6 @@
 ### 一键启动
 
 ```bash
-git clone https://github.com/<your-name>/style-map.git
 cd style-map
 ```
 
